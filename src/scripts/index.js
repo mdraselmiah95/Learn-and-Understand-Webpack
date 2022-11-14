@@ -20,3 +20,5 @@ const person2 = info("Rohan", 27);
 console.log(person1, person2);
 
 console.log("This is cool and i did it.");
+
+// Main javascript file
