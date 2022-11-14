@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/mdraselmiah95/Learn-and-Understand-Webpack#readme",
   "dependencies": {
     "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
   }
 }
