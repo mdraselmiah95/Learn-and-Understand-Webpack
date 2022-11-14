@@ -16,7 +16,7 @@
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/scripts/test.js\");\n\r\n\r\nconst fn = () => {\r\n  console.log(\"I am learning webpack.\");\r\n};\r\nfn();\r\n\r\nconsole.log(_test__WEBPACK_IMPORTED_MODULE_0__.ABC);\r\n\n\n//# sourceURL=webpack://learn-and-understand-webpack/./src/scripts/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/scripts/test.js\");\n\nvar fn = function fn() {\n  console.log(\"I am learning webpack.\");\n};\nfn();\nconsole.log(_test__WEBPACK_IMPORTED_MODULE_0__.ABC);\nvar name = \"rase mia\";\nvar age = 26;\nvar info = name + \" \" + age;\nconsole.log(info);\n\n//# sourceURL=webpack://learn-and-understand-webpack/./src/scripts/index.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tes
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ABC\": () => (/* binding */ ABC)\n/* harmony export */ });\nconst ABC = \"abc\";\r\n\n\n//# sourceURL=webpack://learn-and-understand-webpack/./src/scripts/test.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ABC\": () => (/* binding */ ABC)\n/* harmony export */ });\nvar ABC = \"abc\";\n\n//# sourceURL=webpack://learn-and-understand-webpack/./src/scripts/test.js?");
 
 /***/ })
 
