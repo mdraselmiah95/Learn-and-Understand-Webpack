@@ -1,4 +1,5 @@
 import { ABC } from "./test";
+import "../styles/index.scss";
 
 const fn = () => {
   console.log("I am learning webpack.");
@@ -15,4 +16,5 @@ const info = (a, b) => {
 };
 
 const person1 = info("Rasel mia", 26);
-console.log(person1);
+const person2 = info("Rohan", 27);
+console.log(person1, person2);

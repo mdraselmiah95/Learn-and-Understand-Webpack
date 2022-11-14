@@ -16,7 +16,7 @@
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/scripts/test.js\");\n\nvar fn = function fn() {\n  console.log(\"I am learning webpack.\");\n};\nfn();\nconsole.log(_test__WEBPACK_IMPORTED_MODULE_0__.ABC);\nvar info = function info(a, b) {\n  var name = a;\n  var age = b;\n  var fullInfo = name + \" \" + age;\n  return fullInfo;\n};\nvar person1 = info(\"Rasel mia\", 26);\nconsole.log(person1);\n\n//# sourceURL=webpack://learn-and-understand-webpack/./src/scripts/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/scripts/test.js\");\n/* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/index.scss */ \"./src/styles/index.scss\");\n\n\nvar fn = function fn() {\n  console.log(\"I am learning webpack.\");\n};\nfn();\nconsole.log(_test__WEBPACK_IMPORTED_MODULE_0__.ABC);\nvar info = function info(a, b) {\n  var name = a;\n  var age = b;\n  var fullInfo = name + \" \" + age;\n  return fullInfo;\n};\nvar person1 = info(\"Rasel mia\", 26);\nvar person2 = info(\"Rohan\", 27);\nconsole.log(person1, person2);\n\n//# sourceURL=webpack://learn-and-understand-webpack/./src/scripts/index.js?");
 
 /***/ }),
 
@@ -27,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tes
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ABC\": () => (/* binding */ ABC)\n/* harmony export */ });\nvar ABC = \"abc\";\n\n//# sourceURL=webpack://learn-and-understand-webpack/./src/scripts/test.js?");
+
+/***/ }),
+
+/***/ "./src/styles/index.scss":
+/*!*******************************!*\
+  !*** ./src/styles/index.scss ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://learn-and-understand-webpack/./src/styles/index.scss?");
 
 /***/ })
 
