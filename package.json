@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mdraselmiah95/Learn-and-Understand-Webpack/issues"
   },
-  "homepage": "https://github.com/mdraselmiah95/Learn-and-Understand-Webpack#readme"
+  "homepage": "https://github.com/mdraselmiah95/Learn-and-Understand-Webpack#readme",
+  "dependencies": {
+    "webpack": "^5.75.0"
+  }
 }
