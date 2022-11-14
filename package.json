@@ -17,10 +17,11 @@
     "url": "https://github.com/mdraselmiah95/Learn-and-Understand-Webpack/issues"
   },
   "homepage": "https://github.com/mdraselmiah95/Learn-and-Understand-Webpack#readme",
-  "dependencies": {
-    "webpack": "^5.75.0"
-  },
   "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "webpack": "^5.75.0",
     "webpack-cli": "^4.10.0"
   }
 }

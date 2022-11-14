@@ -8,6 +8,19 @@ module.exports = {
     filename: "bundle.js",
   },
   mode: "development",
+  module: {
+    rules: [
+      {
+        //Babel loader
+      },
+      {
+        //HTMl loader
+      },
+      {
+        //File loader
+      },
+    ],
+  },
 };
 
 // index.js Entry point
