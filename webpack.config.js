@@ -11,13 +11,14 @@ module.exports = {
   module: {
     rules: [
       {
-        //Babel loader
-      },
-      {
-        //HTMl loader
-      },
-      {
-        //File loader
+        test: /\.js$/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env"],
+            plugins: ["@babel/plugin-proposal-class-properties"],
+          },
+        },
       },
     ],
   },
